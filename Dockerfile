@@ -1,4 +1,4 @@
-FROM php:7-apache
+FROM arm32v7/php:7-apache
 
 ENV APACHE_DOCUMENT_ROOT=/app
 
